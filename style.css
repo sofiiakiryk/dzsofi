@@ -1,0 +1,51 @@
+.buttom {
+  display: inline-block;
+  background-color: rgb(166, 89, 239);
+  color: rgb(206, 168, 241);
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition-duration: 1.5s;
+}
+.buttom:hover {
+  transform: scale(0.5);
+}
+.second {
+  display: inline-block;
+  background-color: rgb(232, 0, 155);
+  color: rgb(242, 137, 197);
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 60px;
+  transition-duration: 1.5s;
+  animation-duration: 1.5s;
+  animation-name: one;
+}
+.second:hover {
+  transform: rotate(360deg);
+}
+@keyframes one {
+  0% {
+    margin-left: 0;
+    background-color: blueviolet;
+  }
+  25% {
+    margin-left: 200;
+    background-color: rgb(157, 87, 222);
+  }
+  50% {
+    margin-left: 100;
+    background-color: rgb(196, 149, 239);
+  }
+  75% {
+    margin-left: 200;
+    background-color: rgb(218, 199, 237);
+  }
+  100% {
+    margin-left: 100;
+    background-color: rgb(202, 163, 237);
+  }
+}
